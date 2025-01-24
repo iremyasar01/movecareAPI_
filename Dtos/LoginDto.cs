@@ -2,8 +2,8 @@ namespace movecareAPI.Dtos;
 
 public class LoginDto
 {
-    public string username { get; set; }
-    public string email { get; set; }
-    public string password { get; set; }
-    public string passwordAgain { get; set; }
+    public string? Email { get; set; } // Opsiyonel hale getirdik
+    public string? Username { get; set; } // Opsiyonel hale getirdik
+    public string Password { get; set; }
+    public string PasswordAgain { get; set; }
 }
